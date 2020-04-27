@@ -12,7 +12,7 @@ on:
 
 jobs:
   test:
-    name: Build and Run Tests
+    name: Run Test Cases
     runs-on: windows-latest
 
     steps:
@@ -25,7 +25,7 @@ jobs:
       run: ./gradlew test
       
   build:
-    name: Build and Run Project
+    name: Build Project
     runs-on: windows-latest
 
     steps:
