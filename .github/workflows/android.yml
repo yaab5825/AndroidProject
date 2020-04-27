@@ -11,7 +11,7 @@ on:
     
 
 jobs:
-  build:
+  test:
     name: Build and Run Tests
     runs-on: windows-latest
 
@@ -22,4 +22,4 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Gradle
-      run: ./gradlew build
+      run: ./gradlew test
