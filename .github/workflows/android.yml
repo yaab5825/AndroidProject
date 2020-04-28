@@ -22,7 +22,7 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Gradle
-      run: ./gradlew connectedCheck
+      run: ./gradlew test
       
   build:
     name: Build Project
