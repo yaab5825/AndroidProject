@@ -1,5 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'org.sonarqube'
+apply plugin: "com.vanniktech.android.javadoc"
 
 android {
     compileSdkVersion 29
