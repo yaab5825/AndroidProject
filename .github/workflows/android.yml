@@ -24,7 +24,7 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew test
       
-  sonar:
+  javadoc:
     name: Run Javadoc
     runs-on: windows-latest
 
