@@ -25,7 +25,7 @@ jobs:
       run: ./gradlew test
       
   sonar:
-    name: Run SonarQube
+    name: Run Javadoc
     runs-on: windows-latest
 
     steps:
@@ -35,7 +35,7 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Gradle
-      run: ./gradlew sonarqube
+      run: ./gradlew generateJavadoc
       
       
   build:
