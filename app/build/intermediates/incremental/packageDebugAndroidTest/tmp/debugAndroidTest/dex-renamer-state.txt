@@ -1,0 +1,4 @@
+#Wed Apr 29 15:56:01 CEST 2020
+base.0=I\:\\Class\\Semester 8\\Tools of Software\\self\\MyPrac\\app\\build\\intermediates\\dex\\debugAndroidTest\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

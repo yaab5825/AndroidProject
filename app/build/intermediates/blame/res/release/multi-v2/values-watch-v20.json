@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "I:\\Class\\Semester 8\\Tools of Software\\self\\MyPrac\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\zafar\\.gradle\\caches\\transforms-2\\files-2.1\\be1a1d5e2e0f904262c83d4e8fa5dfca\\appcompat-1.1.0\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}
