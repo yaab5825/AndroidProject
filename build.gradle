@@ -12,6 +12,7 @@ buildscript {
         classpath 'com.android.tools.build:gradle:3.6.0'
         classpath "org.sonarsource.scanner.gradle:sonarqube-gradle-plugin:2.6.1"
         classpath "gradle.plugin.com.vanniktech:gradle-android-javadoc-plugin:0.3.0"
+        classpath "gradle.plugin.com.worker8.android_lint_reporter:android_lint_reporter:1.1.2"
         
 
         // NOTE: Do not place your application dependencies here; they belong

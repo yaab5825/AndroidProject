@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.myprac.UnitTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-04-29T15:13:43" hostname="DESKTOP-16FI0JO" time="0.126">
+<testsuite name="com.example.myprac.UnitTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-04-30T09:50:32" hostname="DESKTOP-16FI0JO" time="0.134">
   <properties/>
-  <testcase name="mainActivity_shouldNotBeNull" classname="com.example.myprac.UnitTests" time="0.126"/>
+  <testcase name="mainActivity_shouldNotBeNull" classname="com.example.myprac.UnitTests" time="0.132"/>
   <testcase name="addition_isCorrect" classname="com.example.myprac.UnitTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
