@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: 'org.sonarqube'
 apply plugin: "com.vanniktech.android.javadoc"
+apply plugin: "com.worker8.android_lint_reporter"
 
 android {
     compileSdkVersion 29
@@ -65,3 +66,9 @@ dependencies {
 
 }
 
+
+android_lint_reporter {
+    lintFilePath = "./app/build/reports/lint-results.xml"
+    githubUsername = "yaab5825"
+    githubRepositoryName = "AndroidProject"
+}
