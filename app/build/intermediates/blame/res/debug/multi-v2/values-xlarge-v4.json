@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "I:\\Class\\Semester 8\\Tools of Software\\self\\MyPrac\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
+            "outputFile": "I:\\Class\\Semester 8\\Tools of Software\\self\\final\\FoodOrder\\Food-Ordering-App-master\\RestaurantEatItApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\zafar\\.gradle\\caches\\transforms-2\\files-2.1\\be1a1d5e2e0f904262c83d4e8fa5dfca\\appcompat-1.1.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "source": "C:\\Users\\zafar\\.gradle\\caches\\transforms-2\\files-2.1\\acc4d0e79c8400aaff4130c1ad540d71\\appcompat-v7-26.1.0\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
