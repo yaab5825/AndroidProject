@@ -29,7 +29,7 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: tests-cases-results
-        path: app/build/reports/tests/testDebugUnitTest/index.html
+        path: app/build/reports/tests/testDebugUnitTest
 
 
   lint:
@@ -66,7 +66,7 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: javadoc-tool-results
-        path: app/build/reports/
+        path: app/build/reports/tests/testDebugUnitTest/index.html
     
   build:
     name: Build Project
