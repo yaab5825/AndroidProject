@@ -26,7 +26,7 @@ jobs:
         java-version: 1.8
     - name: Build with Lint tool
       run: ./gradlew lint
-    - name: Unit tests results
+    - name: lint-tool-results
       uses: actions/upload-artifact@v1
       with:
         name: lint-tool-results
