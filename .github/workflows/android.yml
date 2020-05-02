@@ -14,7 +14,7 @@ on:
     
 jobs:
   test:
-    name: Run Test Cases and upload result in file
+    name: Run Test Cases
     runs-on: windows-latest
 
     steps:
@@ -28,7 +28,7 @@ jobs:
     - name: Unit tests results
       uses: actions/upload-artifact@v1
       with:
-        name: unit-tests-results
+        name: tests-cases-results
         path: app/build/reports/tests/testDebugUnitTest/index.html
 
 
@@ -65,8 +65,8 @@ jobs:
     - name: JavaDoc results
       uses: actions/upload-artifact@v1
       with:
-        name: lint-tool-results
-        path: app/build/reports/javadoc.html
+        name: javadoc-tool-results
+        path: app/build/reports/
     
   build:
     name: Build Project
