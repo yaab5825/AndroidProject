@@ -23,17 +23,17 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-    - name: Build with Gradle
+    - name: Build with Test Cases
       run: ./gradlew test
     - name: Unit tests results
       uses: actions/upload-artifact@v1
       with:
         name: tests-cases-results
-        path: app/build/reports/tests/testDebugUnitTest
+        path: app/build/reports/tests/testDebugUnitTest/index.html
 
 
   lint:
-    name: Run Lint tool and upload result in file
+    name: Run Lint tool
     runs-on: windows-latest
 
     steps:
@@ -42,7 +42,7 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-    - name: Build with Gradle
+    - name: Build with Lint tool
       run: ./gradlew lint
     - name: Unit tests results
       uses: actions/upload-artifact@v1
@@ -51,7 +51,7 @@ jobs:
         path: app/build/reports/lint-results.html
     
   javadoc:
-    name: Run javadoc tool and upload result in file
+    name: Run javadoc tool
     runs-on: windows-latest
 
     steps:
@@ -60,13 +60,13 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-    - name: Build with Gradle
+    - name: Build with Javadoc tool
       run: ./gradlew generateJavadoc
     - name: JavaDoc results
       uses: actions/upload-artifact@v1
       with:
         name: javadoc-tool-results
-        path: app/build/reports/tests/testDebugUnitTest/index.html
+        path: app/build/reports/lint-results.xml
     
   build:
     name: Build Project
