@@ -14,7 +14,7 @@ on:
     
 jobs:
   test:
-    name: Run Lint
+    name: Run Test Cases
     runs-on: windows-latest
 
     steps:
@@ -24,7 +24,12 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Gradle
-      run: ./gradlew lintDebug
+      run: ./gradlew test
+    - name: Unit tests results
+      uses: actions/upload-artifact@v1
+      with:
+        name: unit-tests-results
+        path: app/build/reports/tests/testDebugUnitTest/index.html
 
       
   build:
