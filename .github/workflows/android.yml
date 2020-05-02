@@ -66,7 +66,7 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: javadoc-tool-results
-        path: app/build/reports/lint-results.xml
+        path: app/build/generated/javadoc/
     
   build:
     name: Build Project
