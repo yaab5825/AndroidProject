@@ -1,0 +1,4 @@
+#Fri May 01 18:10:29 CEST 2020
+base.0=/home/erblina/Downloads/FoodOrder/Food-Ordering-App-master/RestaurantEatItApp/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

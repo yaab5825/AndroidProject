@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.homepc.restauranteatitapp.ExampleUnitTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-05-01T21:55:06" hostname="DESKTOP-16FI0JO" time="1.518">
+  <properties/>
+  <testcase name="mainActivity_shouldNotBeNull" classname="com.example.homepc.restauranteatitapp.ExampleUnitTest" time="1.504"/>
+  <testcase name="tearDown" classname="com.example.homepc.restauranteatitapp.ExampleUnitTest" time="0.009"/>
+  <testcase name="addition_isCorrect" classname="com.example.homepc.restauranteatitapp.ExampleUnitTest" time="0.0"/>
+  <system-out><![CDATA[Done with testing
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
