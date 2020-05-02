@@ -14,7 +14,7 @@ on:
     
 jobs:
   test:
-    name: Run Test Cases
+    name: Run Lint
     runs-on: windows-latest
 
     steps:
@@ -24,7 +24,7 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Gradle
-      run: ./gradlew test
+      run: ./gradlew lint
 
       
   build:
