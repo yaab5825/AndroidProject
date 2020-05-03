@@ -60,17 +60,17 @@
 32-->I:\Class\Semester 8\Tools of Software\self\final\FoodOrder\Food-Ordering-App-master\RestaurantEatItApp\app\src\main\AndroidManifest.xml:26:19-44
 33
 34        <meta-data
-34-->[com.android.support:design:26.1.0] C:\Users\zafar\.gradle\caches\transforms-2\files-2.1\18c7cf015bc935416f0264cec45d6a94\design-26.1.0\AndroidManifest.xml:26:9-28:38
+34-->[com.android.support:design:26.1.0] C:\Users\zafar\.gradle\caches\transforms-2\files-2.1\1c57cb40c5ca88fea033fdfa318e24f2\design-26.1.0\AndroidManifest.xml:26:9-28:38
 35            android:name="android.support.VERSION"
-35-->[com.android.support:design:26.1.0] C:\Users\zafar\.gradle\caches\transforms-2\files-2.1\18c7cf015bc935416f0264cec45d6a94\design-26.1.0\AndroidManifest.xml:27:13-51
+35-->[com.android.support:design:26.1.0] C:\Users\zafar\.gradle\caches\transforms-2\files-2.1\1c57cb40c5ca88fea033fdfa318e24f2\design-26.1.0\AndroidManifest.xml:27:13-51
 36            android:value="26.1.0" />
-36-->[com.android.support:design:26.1.0] C:\Users\zafar\.gradle\caches\transforms-2\files-2.1\18c7cf015bc935416f0264cec45d6a94\design-26.1.0\AndroidManifest.xml:28:13-35
+36-->[com.android.support:design:26.1.0] C:\Users\zafar\.gradle\caches\transforms-2\files-2.1\1c57cb40c5ca88fea033fdfa318e24f2\design-26.1.0\AndroidManifest.xml:28:13-35
 37        <meta-data
-37-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\zafar\.gradle\caches\transforms-2\files-2.1\c03725f5f6ac78c6959e798a23254674\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+37-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\zafar\.gradle\caches\transforms-2\files-2.1\c367f147b1824fae601e3784b54956a7\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
 38            android:name="android.arch.lifecycle.VERSION"
-38-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\zafar\.gradle\caches\transforms-2\files-2.1\c03725f5f6ac78c6959e798a23254674\runtime-1.0.0\AndroidManifest.xml:26:13-58
+38-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\zafar\.gradle\caches\transforms-2\files-2.1\c367f147b1824fae601e3784b54956a7\runtime-1.0.0\AndroidManifest.xml:26:13-58
 39            android:value="27.0.0-SNAPSHOT" />
-39-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\zafar\.gradle\caches\transforms-2\files-2.1\c03725f5f6ac78c6959e798a23254674\runtime-1.0.0\AndroidManifest.xml:27:13-44
+39-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\zafar\.gradle\caches\transforms-2\files-2.1\c367f147b1824fae601e3784b54956a7\runtime-1.0.0\AndroidManifest.xml:27:13-44
 40    </application>
 41
 42</manifest>

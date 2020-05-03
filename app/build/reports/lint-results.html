@@ -176,7 +176,7 @@ document.getElementById(id).style.display = 'none';
       <span class="mdl-layout-title">Lint Report: 7 errors and 156 warnings</span>
       <div class="mdl-layout-spacer"></div>
       <nav class="mdl-navigation mdl-layout--large-screen-only">
-Check performed at Sat May 02 11:38:37 CEST 2020      </nav>
+Check performed at Sun May 03 10:56:22 CEST 2020      </nav>
     </div>
   </header>
   <div class="mdl-layout__drawer">
@@ -301,21 +301,21 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
-<span class="location"><a href="../../build.gradle">../../build.gradle</a>:38</span>: <span class="message"><code>compile</code> is deprecated; replace with <code>implementation</code></span><br /><pre class="errorlines">
-<span class="lineno"> 35 </span>    testImplementation <span class="string">'junit:junit:4.12'</span>
-<span class="lineno"> 36 </span>    androidTestImplementation <span class="string">'com.android.support.test:runner:1.0.1'</span>
-<span class="lineno"> 37 </span>    androidTestImplementation <span class="string">'com.android.support.test.espresso:espresso-core:3.0.1'</span>
-<span class="caretline"><span class="lineno"> 38 </span>    <span class="warning">compile</span> <span class="string">'com.android.support:design:26.1.0'</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 39 </span>    compile <span class="string">'de.hdodenhof:circleimageview:1.3.0'</span>
-<span class="lineno"> 40 </span>}
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:61</span>: <span class="message"><code>compile</code> is deprecated; replace with <code>implementation</code></span><br /><pre class="errorlines">
+<span class="lineno"> 58 </span>    testImplementation <span class="string">'junit:junit:4.12'</span>
+<span class="lineno"> 59 </span>    androidTestImplementation <span class="string">'com.android.support.test:runner:1.0.1'</span>
+<span class="lineno"> 60 </span>    androidTestImplementation <span class="string">'com.android.support.test.espresso:espresso-core:3.0.1'</span>
+<span class="caretline"><span class="lineno"> 61 </span>    <span class="warning">compile</span> <span class="string">'com.android.support:design:26.1.0'</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 62 </span>    compile <span class="string">'de.hdodenhof:circleimageview:1.3.0'</span>
+<span class="lineno"> 63 </span>}
 </pre>
 
-<span class="location"><a href="../../build.gradle">../../build.gradle</a>:39</span>: <span class="message"><code>compile</code> is deprecated; replace with <code>implementation</code></span><br /><pre class="errorlines">
-<span class="lineno"> 36 </span>    androidTestImplementation <span class="string">'com.android.support.test:runner:1.0.1'</span>
-<span class="lineno"> 37 </span>    androidTestImplementation <span class="string">'com.android.support.test.espresso:espresso-core:3.0.1'</span>
-<span class="lineno"> 38 </span>    compile <span class="string">'com.android.support:design:26.1.0'</span>
-<span class="caretline"><span class="lineno"> 39 </span>    <span class="warning">compile</span> <span class="string">'de.hdodenhof:circleimageview:1.3.0'</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 40 </span>}
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:62</span>: <span class="message"><code>compile</code> is deprecated; replace with <code>implementation</code></span><br /><pre class="errorlines">
+<span class="lineno"> 59 </span>    androidTestImplementation <span class="string">'com.android.support.test:runner:1.0.1'</span>
+<span class="lineno"> 60 </span>    androidTestImplementation <span class="string">'com.android.support.test.espresso:espresso-core:3.0.1'</span>
+<span class="lineno"> 61 </span>    compile <span class="string">'com.android.support:design:26.1.0'</span>
+<span class="caretline"><span class="lineno"> 62 </span>    <span class="warning">compile</span> <span class="string">'de.hdodenhof:circleimageview:1.3.0'</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 63 </span>}
 </pre>
 
 </div>
@@ -355,14 +355,14 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
-<span class="location"><a href="../../build.gradle">../../build.gradle</a>:8</span>: <span class="message">Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details.</span><br /><pre class="errorlines">
-<span class="lineno">  5 </span>    defaultConfig {
-<span class="lineno">  6 </span>        applicationId <span class="string">"com.example.homepc.restauranteatitapp"</span>
-<span class="lineno">  7 </span>        minSdkVersion <span class="number">15</span>
-<span class="caretline"><span class="lineno">  8 </span>        <span class="warning">targetSdkVersion <span class="number">26</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno">  9 </span>        versionCode <span class="number">1</span>
-<span class="lineno"> 10 </span>        versionName <span class="string">"1.0"</span>
-<span class="lineno"> 11 </span>        testInstrumentationRunner <span class="string">"android.support.test.runner.AndroidJUnitRunner"</span></pre>
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:11</span>: <span class="message">Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the android.os.Build.VERSION_CODES javadoc for details.</span><br /><pre class="errorlines">
+<span class="lineno">  8 </span>    defaultConfig {
+<span class="lineno">  9 </span>        applicationId <span class="string">"com.example.homepc.restauranteatitapp"</span>
+<span class="lineno"> 10 </span>        minSdkVersion <span class="number">15</span>
+<span class="caretline"><span class="lineno"> 11 </span>        <span class="warning">targetSdkVersion <span class="number">26</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 12 </span>        versionCode <span class="number">1</span>
+<span class="lineno"> 13 </span>        versionName <span class="string">"1.0"</span>
+<span class="lineno"> 14 </span>        testInstrumentationRunner <span class="string">"android.support.test.runner.AndroidJUnitRunner"</span></pre>
 
 </div>
 <div class="metadata"><div class="explanation" id="explanationOldTargetApi" style="display: none;">
@@ -405,32 +405,32 @@ Dismiss</button>            </div>
               <div class="mdl-card__supporting-text">
 <div class="issue">
 <div class="warningslist">
-<span class="location"><a href="../../build.gradle">../../build.gradle</a>:32</span>: <span class="message">A newer version of com.android.support.constraint:constraint-layout than 1.0.2 is available: 1.1.3</span><br /><pre class="errorlines">
-<span class="lineno"> 29 </span>dependencies {
-<span class="lineno"> 30 </span>    implementation fileTree(dir: <span class="string">'libs'</span>, include: [<span class="string">'*.jar'</span>])
-<span class="lineno"> 31 </span>    implementation <span class="string">'com.android.support:appcompat-v7:26.1.0'</span>
-<span class="caretline"><span class="lineno"> 32 </span>    <span class="warning">implementation <span class="string">'com.android.support.constraint:constraint-layout:1.0.2'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 33 </span>    implementation <span class="string">'com.android.support:design:26.1.0'</span>
-<span class="lineno"> 34 </span>    implementation <span class="string">'com.android.support:support-v4:26.1.0'</span>
-<span class="lineno"> 35 </span>    testImplementation <span class="string">'junit:junit:4.12'</span></pre>
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:55</span>: <span class="message">A newer version of com.android.support.constraint:constraint-layout than 1.0.2 is available: 1.1.3</span><br /><pre class="errorlines">
+<span class="lineno"> 52 </span>dependencies {
+<span class="lineno"> 53 </span>    implementation fileTree(dir: <span class="string">'libs'</span>, include: [<span class="string">'*.jar'</span>])
+<span class="lineno"> 54 </span>    implementation <span class="string">'com.android.support:appcompat-v7:26.1.0'</span>
+<span class="caretline"><span class="lineno"> 55 </span>    <span class="warning">implementation <span class="string">'com.android.support.constraint:constraint-layout:1.0.2'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 56 </span>    implementation <span class="string">'com.android.support:design:26.1.0'</span>
+<span class="lineno"> 57 </span>    implementation <span class="string">'com.android.support:support-v4:26.1.0'</span>
+<span class="lineno"> 58 </span>    testImplementation <span class="string">'junit:junit:4.12'</span></pre>
 
-<span class="location"><a href="../../build.gradle">../../build.gradle</a>:36</span>: <span class="message">A newer version of com.android.support.test:runner than 1.0.1 is available: 1.0.2</span><br /><pre class="errorlines">
-<span class="lineno"> 33 </span>    implementation <span class="string">'com.android.support:design:26.1.0'</span>
-<span class="lineno"> 34 </span>    implementation <span class="string">'com.android.support:support-v4:26.1.0'</span>
-<span class="lineno"> 35 </span>    testImplementation <span class="string">'junit:junit:4.12'</span>
-<span class="caretline"><span class="lineno"> 36 </span>    <span class="warning">androidTestImplementation <span class="string">'com.android.support.test:runner:1.0.1'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 37 </span>    androidTestImplementation <span class="string">'com.android.support.test.espresso:espresso-core:3.0.1'</span>
-<span class="lineno"> 38 </span>    compile <span class="string">'com.android.support:design:26.1.0'</span>
-<span class="lineno"> 39 </span>    compile <span class="string">'de.hdodenhof:circleimageview:1.3.0'</span></pre>
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:59</span>: <span class="message">A newer version of com.android.support.test:runner than 1.0.1 is available: 1.0.2</span><br /><pre class="errorlines">
+<span class="lineno"> 56 </span>    implementation <span class="string">'com.android.support:design:26.1.0'</span>
+<span class="lineno"> 57 </span>    implementation <span class="string">'com.android.support:support-v4:26.1.0'</span>
+<span class="lineno"> 58 </span>    testImplementation <span class="string">'junit:junit:4.12'</span>
+<span class="caretline"><span class="lineno"> 59 </span>    <span class="warning">androidTestImplementation <span class="string">'com.android.support.test:runner:1.0.1'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 60 </span>    androidTestImplementation <span class="string">'com.android.support.test.espresso:espresso-core:3.0.1'</span>
+<span class="lineno"> 61 </span>    compile <span class="string">'com.android.support:design:26.1.0'</span>
+<span class="lineno"> 62 </span>    compile <span class="string">'de.hdodenhof:circleimageview:1.3.0'</span></pre>
 
-<span class="location"><a href="../../build.gradle">../../build.gradle</a>:37</span>: <span class="message">A newer version of com.android.support.test.espresso:espresso-core than 3.0.1 is available: 3.0.2</span><br /><pre class="errorlines">
-<span class="lineno"> 34 </span>    implementation <span class="string">'com.android.support:support-v4:26.1.0'</span>
-<span class="lineno"> 35 </span>    testImplementation <span class="string">'junit:junit:4.12'</span>
-<span class="lineno"> 36 </span>    androidTestImplementation <span class="string">'com.android.support.test:runner:1.0.1'</span>
-<span class="caretline"><span class="lineno"> 37 </span>    <span class="warning">androidTestImplementation <span class="string">'com.android.support.test.espresso:espresso-core:3.0.1'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
-<span class="lineno"> 38 </span>    compile <span class="string">'com.android.support:design:26.1.0'</span>
-<span class="lineno"> 39 </span>    compile <span class="string">'de.hdodenhof:circleimageview:1.3.0'</span>
-<span class="lineno"> 40 </span>}
+<span class="location"><a href="../../build.gradle">../../build.gradle</a>:60</span>: <span class="message">A newer version of com.android.support.test.espresso:espresso-core than 3.0.1 is available: 3.0.2</span><br /><pre class="errorlines">
+<span class="lineno"> 57 </span>    implementation <span class="string">'com.android.support:support-v4:26.1.0'</span>
+<span class="lineno"> 58 </span>    testImplementation <span class="string">'junit:junit:4.12'</span>
+<span class="lineno"> 59 </span>    androidTestImplementation <span class="string">'com.android.support.test:runner:1.0.1'</span>
+<span class="caretline"><span class="lineno"> 60 </span>    <span class="warning">androidTestImplementation <span class="string">'com.android.support.test.espresso:espresso-core:3.0.1'</span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<span class="lineno"> 61 </span>    compile <span class="string">'com.android.support:design:26.1.0'</span>
+<span class="lineno"> 62 </span>    compile <span class="string">'de.hdodenhof:circleimageview:1.3.0'</span>
+<span class="lineno"> 63 </span>}
 </pre>
 
 </div>

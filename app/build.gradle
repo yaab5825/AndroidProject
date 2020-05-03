@@ -1,5 +1,7 @@
 apply plugin: 'com.android.application'
 apply plugin: "com.vanniktech.android.javadoc"
+apply plugin: "checkstyle"
+check.dependsOn 'checkstyle'
 
 android {
     compileSdkVersion 26
@@ -25,6 +27,26 @@ android {
         }
 
     }
+}
+
+checkstyle {
+    toolVersion = '8.6'
+    configFile = rootProject.file("app/build/reports/checkstyle/checkstyle.xml")
+}
+
+
+task checkstyle(type: Checkstyle) {
+
+
+    source 'src'
+    include '**/*.java'
+    exclude '**/gen/**'
+    classpath = files()
+    reports {
+        xml.enabled false
+        html.enabled true
+    }
+
 }
 
 dependencies {
