@@ -68,7 +68,7 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: javadoc-tool-results
-        path: app/build/reports/javadoc/
+        path: app/build/docs/javadoc/
    
   test:
      name: Run Test Cases
