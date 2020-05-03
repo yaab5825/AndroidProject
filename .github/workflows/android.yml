@@ -15,7 +15,7 @@ on:
 jobs:
 
   lint:
-    name: Run Lint tool
+    name: Run Lint Analyzer tool
     runs-on: windows-latest
 
     steps:
@@ -53,7 +53,7 @@ jobs:
   
   
   javadoc:
-    name: Run javadoc tool
+    name: Run Javadoc tool
     runs-on: windows-latest
 
     steps:
