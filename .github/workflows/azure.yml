@@ -15,7 +15,9 @@
 
 name: Deploy to Azure
 
-
+on:
+  release:
+    types: [published]
 
 env:
   AZURE_WEBAPP_NAME: Androidfirst    # set this to your application's name
